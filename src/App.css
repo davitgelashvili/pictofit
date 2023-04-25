@@ -59,7 +59,39 @@
 }
 
 .demo {
-    width: 400px;
+    width: 100%;
+    max-width: 800px;
     height: 400px;
     border: 1px solid red
+}
+
+.dashbboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.sidebar__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.sidebar__head--btn {
+    width: 48%;
+    outline: none;
+    cursor: pointer;
+    background-color: #f5f6fe;
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
 }

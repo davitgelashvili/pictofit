@@ -1,9 +1,9 @@
 import './App.css';
 import { Route, Routes } from 'react-router';
-import Demo from './Components/Demo/Demo';
 import Home from './Components/Home/Home';
 import Login from './Components/Auth/Login/Login';
 import Reg from './Components/Auth/Reg/Reg';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
                     <Route path='/' element={<Home />} />
                     <Route path='/login' element={<Login />} />
                     <Route path='/reg' element={<Reg />} />
-                    <Route path='/demo' element={<Demo />} />
+                    <Route path='/demo' element={<Dashboard />} />
                 </Routes>
             </div>  
         </div>
